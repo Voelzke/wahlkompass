@@ -2,18 +2,34 @@
 
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import type { Category, Thesis, UserAnswer } from "../../../lib/types";
-import { matchingStore, useMatchingStore } from "../../../store/matching";
-import ThesisCard from "../../../components/ThesisCard";
-import AnswerButtons from "../../../components/AnswerButtons";
-import ProgressBar from "../../../components/ProgressBar";
-import TierSelector, { defaultTiers } from "../../../components/TierSelector";
+import type { Category, Thesis, UserAnswer } from "@/lib/types";
+import { matchingStore, useMatchingStore } from "@/store/matching";
+import ThesisCard from "@/components/ThesisCard";
+import AnswerButtons from "@/components/AnswerButtons";
+import ProgressBar from "@/components/ProgressBar";
+import TierSelector, { defaultTiers } from "@/components/TierSelector";
 
 interface Props {
   electionId: string;
   electionTitle: string;
   theses: Thesis[];
   categories: Category[];
+}
+
+/**
+ * Returns theses filtered by tier.
+ * tier "20" → all theses with tier "20" (20 theses)
+ * tier "40" → all theses with tier "20" or "40" (40 theses)
+ * tier "60plus" → all theses (60 theses)
+ */
+function filterByTier(theses: Thesis[], tierCount: number): Thesis[] {
+  if (tierCount <= 20) {
+    return theses.filter((t) => t.tier === "20");
+  } else if (tierCount <= 40) {
+    return theses.filter((t) => t.tier === "20" || t.tier === "40");
+  } else {
+    return theses;
+  }
 }
 
 export default function MatchingFlow({
@@ -54,7 +70,7 @@ export default function MatchingFlow({
   }
 
   const activeTheses = useMemo(
-    () => theses.slice(0, tierSelected),
+    () => filterByTier(theses, tierSelected),
     [theses, tierSelected],
   );
 
@@ -63,8 +79,8 @@ export default function MatchingFlow({
       <div className="mx-auto max-w-2xl px-4 py-16 text-center">
         <h1 className="mb-4 text-2xl font-bold">Fast geschafft!</h1>
         <p className="mb-6 text-gray-600">
-          Du hast alle Thesen durchlaufen. Jetzt kannst du dein Ergebnis
-          ansehen.
+          Du hast alle {activeTheses.length} Thesen durchlaufen. Jetzt kannst du
+          dein Ergebnis ansehen.
         </p>
         <button
           type="button"
@@ -84,7 +100,6 @@ export default function MatchingFlow({
   function handleAnswer(answer: UserAnswer) {
     const wasWeighted = currentAnswer?.weighted ?? false;
     matchingStore.setAnswer(thesis.id, answer, wasWeighted);
-    // auto-advance after a short delay
     setTimeout(() => {
       matchingStore.next();
     }, 150);
@@ -97,7 +112,7 @@ export default function MatchingFlow({
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
       <div className="mb-6">
-        <ProgressBar current={currentIndex} total={activeTheses.length} />
+        <ProgressBar current={currentIndex + 1} total={activeTheses.length} />
       </div>
 
       <ThesisCard thesis={thesis} category={category} />

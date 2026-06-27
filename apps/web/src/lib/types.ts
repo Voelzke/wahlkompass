@@ -44,6 +44,8 @@ export interface Thesis {
   sort_order: number;
   /** Base weight for this thesis (default 1). */
   weight: number;
+  /** Tier: "20" = in all sets, "40" = in 40+ and 60+ sets, "60plus" = in 60+ set only */
+  tier: string;
 }
 
 /** A party's position on a single thesis. */
