@@ -1,0 +1,70 @@
+{
+  "app": {
+    "name": "Wahlkompass",
+    "tagline": "Vergleiche deine Positionen mit allen Parteien"
+  },
+  "nav": {
+    "home": "Start",
+    "methodik": "Methodik",
+    "impressum": "Impressum"
+  },
+  "start": {
+    "heading": "Welche Partei passt zu dir?",
+    "subheading": "Beantworte Thesen und vergleiche deine Positionen mit allen antretenden Parteien.",
+    "start": "Zum Fragebogen",
+    "currentElection": "Aktuelle Wahl",
+    "selectSeason": "Saison wählen",
+    "noElection": "Aktuell ist keine Wahl aktiv."
+  },
+  "tier": {
+    "heading": "Wie viele Thesen möchtest du beantworten?",
+    "kurz": "Kurz",
+    "mittel": "Mittel",
+    "lang": "Lang",
+    "kurzDesc": "20 Thesen — schnell",
+    "mittelDesc": "40 Thesen — empfohlen",
+    "langDesc": "60+ Thesen — ausführlich",
+    "continue": "Weiter"
+  },
+  "matching": {
+    "thesisOf": "These {current} von {total}",
+    "zustimmen": "Zustimmen",
+    "ablehnen": "Ablehnen",
+    "ueberspringen": "Überspringen",
+    "doppelteGewichtung": "Doppelte Gewichtung",
+    "back": "Zurück",
+    "next": "Weiter",
+    "finish": "Ergebnis anzeigen",
+    "progress": "{done} von {total} Thesen"
+  },
+  "results": {
+    "heading": "Dein Ergebnis",
+    "agreement": "{percent}% Übereinstimmung",
+    "minTheses": "Bitte beantworten Sie mindestens 5 Thesen",
+    "backToStart": "Zurück zur Startseite",
+    "expandDetails": "Details anzeigen",
+    "collapseDetails": "Details ausblenden",
+    "perThesis": "These-für-These",
+    "evidence": "Beleg",
+    "noEvidence": "Kein Beleg hinterlegt",
+    "previewHint": "⚠️ Hinweis: Noch nicht alle Parteipositionen sind erfasst. Ergebnisse können sich noch ändern.",
+    "rank": "Platz {rank}",
+    "answeredCount": "Du hast {count} Thesen beantwortet."
+  },
+  "methodik": {
+    "title": "Methodik",
+    "loading": "Lade Methodik…"
+  },
+  "impressum": {
+    "title": "Impressum"
+  },
+  "footer": {
+    "github": "GitHub",
+    "license": "AGPL-3.0 (Code) · CC-BY-SA 4.0 (Daten)",
+    "kiHint": "KI-Transparenz: Positionen werden teilautomatisiert extrahiert und geprüft."
+  },
+  "common": {
+    "loading": "Wird geladen…",
+    "error": "Etwas ist schiefgelaufen."
+  }
+}

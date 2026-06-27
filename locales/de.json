@@ -1,0 +1,75 @@
+{
+  "app": {
+    "title": "WahlKompass",
+    "subtitle": "Finde heraus, welche Partei zu dir passt",
+    "description": "Open-Source-Wahlkompass — alle Parteien, transparent, frei"
+  },
+  "nav": {
+    "home": "Start",
+    "methodik": "Methodik",
+    "impressum": "Impressum",
+    "github": "GitHub"
+  },
+  "start": {
+    "selectElection": "Wahl auswählen",
+    "startMatching": "Matching starten",
+    "partiesCaptured": "Parteien erfasst",
+    "of": "von"
+  },
+  "matching": {
+    "thesis": "These",
+    "of": "von",
+    "zustimmen": "Zustimmen",
+    "ablehnen": "Ablehnen",
+    "ueberspringen": "Überspringen",
+    "doppelteGewichtung": "Doppelte Gewichtung",
+    "weiter": "Weiter",
+    "zurueck": "Zurück",
+    "selectTier": "Wie viele Thesen möchtest du beantworten?",
+    "tier20": "20 Thesen (schnell)",
+    "tier40": "40 Thesen (detailliert)",
+    "tier60plus": "60+ Thesen (vollständig)",
+    "progress": "Fortschritt"
+  },
+  "result": {
+    "title": "Dein Ergebnis",
+    "match": "Übereinstimmung",
+    "rank": "Rang",
+    "tied": "geteilt",
+    "expandDetails": "Details anzeigen",
+    "evidence": "Beleg",
+    "source": "Quelle",
+    "page": "Seite",
+    "reviewStatus": "Review-Status",
+    "extractionDate": "Extraktionsdatum",
+    "noMatch": "Keine Übereinstimmung gefunden",
+    "notEnoughTheses": "Bitte beantworten Sie mindestens 5 Thesen, um ein Ergebnis zu erhalten.",
+    "previewHint": "Noch nicht alle Parteien erfasst — Ergebnis kann sich ändern.",
+    "startOver": "Neu starten"
+  },
+  "methodik": {
+    "title": "Methodik",
+    "partySelection": "Parteien-Auswahl",
+    "thesisModel": "Thesen-Modell",
+    "evidenceRequirements": "Belegbarkeit",
+    "matchingLogic": "Matching-Logik",
+    "kiExtraction": "KI-Extraktion",
+    "reviewProcess": "Review-Prozess"
+  },
+  "transparency": {
+    "kiHint": "Positionen wurden mithilfe von KI extrahiert und von Menschen geprüft.",
+    "kiDetails": "Extraktions-Modell: {model} (Version {version})",
+    "openSource": "Dieser Wahlkompass ist Open Source (AGPL-3.0). Der Code und die Daten sind frei verfügbar.",
+    "evidenceNote": "Jede Position ist mit einem Quellenbeleg aus dem Parteiprogramm hinterlegt."
+  },
+  "footer": {
+    "license": "AGPL-3.0 Code · CC-BY-SA 4.0 Daten",
+    "github": "Auf GitHub ansehen",
+    "madeWith": "Made with Open Source"
+  },
+  "common": {
+    "loading": "Laden…",
+    "error": "Ein Fehler ist aufgetreten.",
+    "retry": "Erneut versuchen"
+  }
+}
