@@ -2,10 +2,10 @@
 
 import { useMemo } from "react";
 import Link from "next/link";
-import type { Election, Party, Position, Thesis } from "../../../../lib/types";
-import { computeResults } from "../../../../lib/matching";
-import { loadAnswersForElection } from "../../../../store/matching";
-import PartyRanking from "../../../../components/PartyRanking";
+import type { Election, Party, Position, Thesis } from "@/lib/types";
+import { computeResults } from "@/lib/matching";
+import { loadAnswersForElection } from "@/store/matching";
+import PartyRanking from "@/components/PartyRanking";
 
 interface Props {
   electionId: string;

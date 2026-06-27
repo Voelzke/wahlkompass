@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getElectionData } from "../../../../lib/api";
+import { getElectionData } from "@/lib/api";
 import MatchingFlow from "./MatchingFlow";
 
 export const revalidate = 60;
