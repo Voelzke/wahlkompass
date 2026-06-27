@@ -1,0 +1,245 @@
+[
+  {
+    "short_name": "SPD",
+    "url": "https://www.spd.de/fileadmin/Dokumente/Regierungsprogramm/Bundestagswahlprogramm_LP_SPD_2025.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_spd.pdf",
+    "size": 716106,
+    "sha256": "3981478d500e8ed74052d6ad74d40d2b2679025bed770043d71bc63c4b3f39e7"
+  },
+  {
+    "short_name": "CDU",
+    "url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_cdu.pdf",
+    "size": 1819357,
+    "sha256": "08f751316e731b77aa2f18090b8695d88268f2942481399f37a3a47317361795"
+  },
+  {
+    "short_name": "GRÜNE",
+    "url": "https://cms.gruene.de/uploads/assets/20250205_Wahlprogramm-LS_A4.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_gruene.pdf",
+    "size": 5541984,
+    "sha256": "0067bea43f56ada23bf5d7537e77688aa70352e4bad38989a26b3d23277dcffe"
+  },
+  {
+    "short_name": "FDP",
+    "url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_fdp.pdf",
+    "size": 854229,
+    "sha256": "a549dcb318f60fdd8a257fb2e68745d1df50151f4914910e2afde20c3b0fa039"
+  },
+  {
+    "short_name": "AfD",
+    "url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_afd.pdf",
+    "size": 908024,
+    "sha256": "e2d0a944f54017aa432bcd0c069c7908aefb3ea65af4904e7f86ca7c7bd0d4bb"
+  },
+  {
+    "short_name": "Die Linke",
+    "url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_die_linke.pdf",
+    "size": 867185,
+    "sha256": "301bd30a5fcd2a7e791adc4db5294e79d8f3fd71b8c9b080b057f14bf8cae600"
+  },
+  {
+    "short_name": "BSW",
+    "url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_bsw.pdf",
+    "size": 1199500,
+    "sha256": "bd4640aab7c6ff214becc7e44bc6dc67539ebd80992bb39fb8853839d3a7ccda"
+  },
+  {
+    "short_name": "FREIE WÄHLER",
+    "url": "https://www.freiewaehler.eu/template/elemente/566/FREIE%20W%C3%84HLER%20Wahlprogramm%202025.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_freie_waehler.pdf",
+    "size": 104266,
+    "sha256": "dc6cc7af14ef795047a78a879976f2191eab07cc0b65b5264d55596ec19ef4bd"
+  },
+  {
+    "short_name": "Tierschutzpartei",
+    "url": "https://www.tierschutzpartei.de/wp-content/uploads/2025/02/Tierschutzpartei-BTW-Programm-2025.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_tierschutzpartei.pdf",
+    "size": 2121155,
+    "sha256": "9a07ba5445f1caac9e28238a787b24813454896d93206c42287f5f80a085fcac"
+  },
+  {
+    "short_name": "Volt",
+    "url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf",
+    "format": "pdf",
+    "downloaded": true,
+    "filename": "btw2025_volt.pdf",
+    "size": 810631,
+    "sha256": "71a00478c12063ec6177f51b70ae2348369716d5a6c32854cfd547d85a988a62"
+  },
+  {
+    "short_name": "CSU",
+    "url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf",
+    "format": "pdf",
+    "note": "Joint CDU/CSU program",
+    "downloaded": true,
+    "filename": "btw2025_csu.pdf",
+    "size": 1819357,
+    "sha256": "08f751316e731b77aa2f18090b8695d88268f2942481399f37a3a47317361795"
+  },
+  {
+    "short_name": "PIRATEN",
+    "url": "https://piratenpartei.de/partei/wahl-und-grundsatzprogramme/",
+    "format": "html",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "dieBasis",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "Die PARTEI",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "Die Gerechtigkeitspartei",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "ÖDP",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "SSW",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "Verjüngungsforschung",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "PdH",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "Bündnis C",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "BP",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "MLPD",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "MENSCHLICHE WELT",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "PdF",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "SGP",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "BüSo",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "BÜNDNIS DEUTSCHLAND",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "MERA25",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  },
+  {
+    "short_name": "WerteUnion",
+    "url": "",
+    "format": "",
+    "note": "No program found yet",
+    "downloaded": false,
+    "reason": "no_url"
+  }
+]
