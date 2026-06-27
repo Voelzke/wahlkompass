@@ -16,12 +16,14 @@ export default async function MatchingPage({
     notFound();
   }
 
+  const { election, theses, categories } = data!;
+
   return (
     <MatchingFlow
       electionId={params.electionId}
-      electionTitle={data.election.title ?? data.election.region}
-      theses={data.theses}
-      categories={data.categories}
+      electionTitle={election.title ?? election.region}
+      theses={theses}
+      categories={categories}
     />
   );
 }

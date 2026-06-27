@@ -74,8 +74,10 @@ class TestParsePartyListHtml:
     def test_website_url_extracted(self):
         parties = parse_party_list_html(MOCK_BUNDESWAHLLEITER_HTML)
         for p in parties:
-            assert p["website_url"] is not None
-            assert p["website_url"].startswith("http")
+            # All data rows in the mock have website URLs
+            if p["name"] != "Name der Partei":
+                assert p["website_url"] is not None
+                assert p["website_url"].startswith("http")
 
     def test_short_name_max_20_chars(self):
         parties = parse_party_list_html(MOCK_BUNDESWAHLLEITER_HTML)

@@ -86,7 +86,10 @@ class PartyListParser(HTMLParser):
             return
         # Skip header rows
         first = row[0].lower() if row[0] else ""
-        if first in ("name", "partei", "bezeichnung", "liste"):
+        second = row[1].lower() if len(row) > 1 and row[1] else ""
+        if first in ("name", "partei", "bezeichnung", "liste") or "name der partei" in first:
+            return
+        if "kurzbezeichnung" in second or "kürzel" in second:
             return
         if not any(cell.strip() for cell in row):
             return

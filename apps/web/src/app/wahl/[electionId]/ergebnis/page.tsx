@@ -16,13 +16,15 @@ export default async function ResultsPage({
     notFound();
   }
 
+  const { election, parties, theses, positions } = data!;
+
   return (
     <ResultsClient
       electionId={params.electionId}
-      election={data.election}
-      parties={data.parties}
-      theses={data.theses}
-      positions={data.positions}
+      election={election}
+      parties={parties}
+      theses={theses}
+      positions={positions}
     />
   );
 }
