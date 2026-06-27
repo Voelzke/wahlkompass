@@ -1,0 +1,95 @@
+name: CI
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-db:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_DB: wahlkompass_test
+          POSTGRES_USER: wahlkompass
+          POSTGRES_PASSWORD: wahlkompass_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          pip install -e packages/db -e packages/scraping -e packages/extraction
+          pip install pytest pytest-asyncio
+      - name: Run database tests
+        env:
+          DATABASE_URL: postgresql://wahlkompass:***@localhost:5432/wahlkompass_test
+        run: pytest packages/db/tests/ -v
+
+  test-scraping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          pip install -e packages/scraping
+          pip install pytest
+      - name: Run scraping tests
+        run: pytest packages/scraping/tests/ -v
+
+  test-extraction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          pip install -e packages/extraction
+          pip install pytest
+      - name: Run extraction tests
+        run: pytest packages/extraction/tests/ -v
+
+  test-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: cd apps/web && npm ci
+      - name: Run tests
+        run: cd apps/web && npm test
+      - name: Lint
+        run: cd apps/web && npm run lint
+
+  auto-validate:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && contains(github.event.head_commit.modified, 'data/')
+    needs: [test-db]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -e packages/extraction
+      - name: Run auto-validation
+        run: python -m packages.extraction.auto_validate --data-dir data/
