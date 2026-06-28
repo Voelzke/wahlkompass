@@ -27,6 +27,7 @@ function makeThesis(id: string, sort = 1): Thesis {
     text: `Text ${id}`,
     sort_order: sort,
     weight: 1,
+    tier: "20",
   };
 }
 
@@ -106,7 +107,7 @@ describe("computePartyScore", () => {
     };
     const result = computePartyScore(makeParty("p1"), theses, [], answers);
     expect(result).not.toBeNull();
-    expect(result!.answeredCount ?? countAnswered(theses, answers)).toBe(5);
+    expect(countAnswered(theses, answers)).toBe(5);
   });
 
   it("returns norm +1 when party fully agrees (no weighting)", () => {

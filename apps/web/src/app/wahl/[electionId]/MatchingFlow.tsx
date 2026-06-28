@@ -41,11 +41,17 @@ export default function MatchingFlow({
   const router = useRouter();
   const [tierSelected, setTierSelected] = useState<number | null>(null);
 
+  // ALL hooks must be called before any early return — React rules of hooks
   const started = useMatchingStore((s) => s.started && s.electionId === electionId);
   const currentIndex = useMatchingStore((s) => s.currentIndex);
   const answers = useMatchingStore((s) => s.answers);
 
-  // Tier selector screen
+  const activeTheses = useMemo(
+    () => filterByTier(theses, tierSelected ?? 60),
+    [theses, tierSelected],
+  );
+
+  // Tier selector screen — only shown before user picks a tier
   if (!started || tierSelected === null) {
     const tiers = defaultTiers().map((t) => ({
       ...t,
@@ -68,11 +74,6 @@ export default function MatchingFlow({
       </div>
     );
   }
-
-  const activeTheses = useMemo(
-    () => filterByTier(theses, tierSelected),
-    [theses, tierSelected],
-  );
 
   if (currentIndex >= activeTheses.length) {
     return (
