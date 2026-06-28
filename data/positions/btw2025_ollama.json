@@ -1,0 +1,3348 @@
+{
+  "theses": [
+    {
+      "id": "the-btw2025-wirt-1",
+      "category_id": "cat-btw2025-wirtschaft",
+      "statement": "Der Staat soll die Schuldenbremse beibehalten.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-wirt-2",
+      "category_id": "cat-btw2025-wirtschaft",
+      "statement": "Vermögende sollen höher besteuert werden.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-soz-1",
+      "category_id": "cat-btw2025-soziales",
+      "statement": "Das Renteneintrittsalter soll nicht weiter steigen.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-soz-2",
+      "category_id": "cat-btw2025-soziales",
+      "statement": "Die Bürgergeld-Sätze sollen erhöht werden.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-kli-1",
+      "category_id": "cat-btw2025-klima",
+      "statement": "Deutschland soll bis 2035 klimaneutral sein.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-kli-2",
+      "category_id": "cat-btw2025-klima",
+      "statement": "Fossile Heizungen sollen ab 2030 nicht mehr installiert werden.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-bil-1",
+      "category_id": "cat-btw2025-bildung",
+      "statement": "Das Studium soll gebührenfrei bleiben.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-bil-2",
+      "category_id": "cat-btw2025-bildung",
+      "statement": "Der Bund soll mehr Geld für Schulen bereitstellen.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-eur-1",
+      "category_id": "cat-btw2025-europa",
+      "statement": "Die EU soll eine gemeinsame Armee aufbauen.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-eur-2",
+      "category_id": "cat-btw2025-europa",
+      "statement": "Militärische Unterstützung für die Ukraine soll weitergehen.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-inn-1",
+      "category_id": "cat-btw2025-innen",
+      "statement": "Die Polizei soll mehr Personal erhalten.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-inn-2",
+      "category_id": "cat-btw2025-innen",
+      "statement": "Videoüberwachung im öffentlichen Raum soll ausgeweitet werden.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-mig-1",
+      "category_id": "cat-btw2025-migration",
+      "statement": "Deutschland soll mehr Flüchtlinge aufnehmen.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-mig-2",
+      "category_id": "cat-btw2025-migration",
+      "statement": "Das Asylrecht soll strenger gefasst werden.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-dem-1",
+      "category_id": "cat-btw2025-demokratie",
+      "statement": "Das Wahlalter soll auf 16 Jahre gesenkt werden.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-dem-2",
+      "category_id": "cat-btw2025-demokratie",
+      "statement": "Parteispenden sollen transparenter gemacht werden.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-ver-1",
+      "category_id": "cat-btw2025-verkehr",
+      "statement": "Der öffentliche Personennahverkehr soll kostenlos sein.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-ver-2",
+      "category_id": "cat-btw2025-verkehr",
+      "statement": "Das Schienennetz soll stark ausgebaut werden.",
+      "tier": "20",
+      "sort_order": 2
+    },
+    {
+      "id": "the-btw2025-dig-1",
+      "category_id": "cat-btw2025-digital",
+      "statement": "Schnelles Internet soll flächendeckend staatlich gefördert werden.",
+      "tier": "20",
+      "sort_order": 1
+    },
+    {
+      "id": "the-btw2025-dig-2",
+      "category_id": "cat-btw2025-digital",
+      "statement": "Behördenleistungen sollen vollständig digital verfügbar sein.",
+      "tier": "20",
+      "sort_order": 2
+    }
+  ],
+  "positions": [
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-wirt-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-wirt-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-soz-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-soz-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-kli-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-kli-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-bil-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-bil-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-eur-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-eur-2",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-inn-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-inn-2",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-mig-1",
+      "position_type": "zustimmen",
+      "numeric": 1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-mig-2",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dem-1",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dem-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-ver-1",
+      "position_type": "ablehnen",
+      "numeric": -1,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-ver-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dig-1",
+      "position_type": "neutral",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dig-2",
+      "position_type": "unklar",
+      "numeric": 0,
+      "extraction_model": "ollama-qwen3-8k",
+      "review_status": "geflaggt"
+    }
+  ],
+  "evidences": [
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "Die Schuldenbremse muss weg und der Militärhaushalt muss sinken, dam",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Wir wollen hohe Einkommen stärker besteuern und niedrige entlasten. Und große private Kapitalvermögen müssen endlich gerecht besteuert werden.",
+      "quote_location": {
+        "page": 6,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "Wir wollen höhere Renten und wirkliche Rentengerechtigkeit für alle.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Das Wahlprogramm erwähnt keine spezifischen Sätze für Bürgergeld oder ähnliche soziale Leistungen.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "eine klimaneutrale Industrie und den sozialen Ausgleich über Kredite zu finanzieren",
+      "quote_location": {
+        "page": 13,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "Heizungen umgestellt werden",
+      "quote_location": {
+        "page": 33,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "Ein gutes Studium für alle ▪ Das Berufsbildungsgesetzes (BBiG) muss so reformiert werden, dass die Verbesserung der A",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "Die Schuldenbremse muss weg und der Militärhaushalt muss sinken, damit wir heute und morgen in Bildung, Bus und Bahn und die Wirtschaft investieren können.",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Eine solche Sicherheitsarchitektur macht die NATO überflüssig und ermöglicht eine Außenpolitik der internationalen Kooperation anstelle von wirtschaftlicher und militärischer Konkurrenz.",
+      "quote_location": {
+        "page": 23,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "Für Die Linke ist Krieg kein legitimes Mittel der Politik. Die Linke ist eine Friedenspartei und verlässliche Stimme der Friedensbewegungen.",
+      "quote_location": {
+        "page": 20,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "Deeskalation statt Aufrüstung! Die Militarisierung der Polizei, ihre zunehmende Ausstattung mit Maschinengewehren und -pistolen, Schützenpanzern und Sprengstoff lehnen wir ab",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "allgegenwärtige Videoüberwachung, Späh- und Lauschangriffe",
+      "quote_location": {
+        "page": 49,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "massive humanitäre Hilfe ebenso einsetzen wie für diplomatische Initiativen für einen Waffenstillstand",
+      "quote_location": {
+        "page": 22,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "Asylrecht verteidigen – Niemand flieht freiwillig",
+      "quote_location": {
+        "page": 52,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "Das Wahlalter soll auf 16 Jahre abgesenkt werden",
+      "quote_location": {
+        "page": 17,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dem-2",
+      "quote": "Unternehmensspenden an Parteien sowie das steuerlich absetzbare Parteiensponsoring (etwa Unternehmensstände auf Parteitagen) wollen wir verbieten. Spenden von Privatpersonen sind auf 25.000 Euro im Jahr zu begrenzen.",
+      "quote_location": {
+        "page": 50,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "Es braucht eine wohnortnahe, kostenlose Gesundheitsversorgung.",
+      "quote_location": {
+        "page": 18,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "Strom-, Wärme- und Gasnetze müssen in die öffentliche Hand überführt, demokratisch kontrolliert und europäisch koordiniert werden.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Den kommunalen und gemeinnützigen Ausbau von Glasfasernetzen fördern, unnötigen Doppelausbau verhindern, das Recht auf Internetzugang auf 100 Mbit/s Downloadgeschwindigkeit erhöhen und die Preise so deckeln, dass sich alle den Zugang dazu leisten können.",
+      "quote_location": {
+        "page": 57,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-die-linke",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "elektronische Patientenakte der Verbesserung der Behandlungen dient und damit nicht für kommerzielle Player freigegeben werden.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "Bundeshaushalt konsolidieren, Steuerverschwendung beenden, Schuldenbremse einhalten",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Die AfD wird das Steuerrecht durch einen geänderten Einkommensteuertarif mit wenigen Stufen vereinfachen. Die Steuersätze werden wir senken, im Gegenzug ebenso die Abschreibungsmöglichkeiten für „Steuersparmodelle“.",
+      "quote_location": {
+        "page": 57,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "ein flexibles Renteneintrittsalter, abschlagsfrei nach 45 beitragsberechtigten Arbeitsjahren, ermöglichen,",
+      "quote_location": {
+        "page": 19,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "indem Einkommensteuern gesenkt werden und das Bürgergeld unattraktiver gemacht wird,",
+      "quote_location": {
+        "page": 22,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Abschaffung aller CO₂-Abgaben",
+      "quote_location": {
+        "page": 5,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "Aufhebung des Verbots von Gas- und Ölheizungen",
+      "quote_location": {
+        "page": 14,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "Die AfD fordert die sofortige Einstellung jeglicher Kreditaufnahme seitens der EU: Keine vertragswidrige Vergemeinschaftung von Schulden, keine ideologische und zentralistische Geld- und Wirtschaftspolitik und Rückkehr zu einer Kapitalallokation über funktio- nierende Märkte.",
+      "quote_location": {
+        "page": 66,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "Mehrgliedriges Schulsystem erhalten",
+      "quote_location": {
+        "page": 8,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Keine Integration Aufenthaltsunberechtigter um jeden Preis /Eingrenzung der Asylindustrie",
+      "quote_location": {
+        "page": 110,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "die fortlaufenden Abgabe von einsatzfähigem Material und Waffen-systemen aus Beständen der Bundeswehr an die Ukraine und der Dauerbelastung der Truppe durch die Ausbildung von ukrainischen Soldaten, befinden sich die deutschen Streitkräfte in einem desolaten Zustand.",
+      "quote_location": {
+        "page": 89,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "Dies gilt auch für die „politischen Beamten“ in der Staatsverwaltung – vom Ministerialdirektor bis zum Polizeipräsidenten.",
+      "quote_location": {
+        "page": 136,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "Bargeld ist Freiheit und Schutz vor Enteignung und Totalüberwachung",
+      "quote_location": {
+        "page": 66,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "Begrenzung der Zuwanderung auf qualifizierte Arbeitskräfte, damit diese am Ende ihres Erwerbslebens nicht auf deutsche Sozialleistungen angewiesen sind.",
+      "quote_location": {
+        "page": 21,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "Kontrollen und damit verbundene Zurückweisungen an der Grenze müssen als selbstverständliches Recht souveräner Staaten aufgefasst werden.",
+      "quote_location": {
+        "page": 101,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "eine umfassende Schulbildung, die unsere jungen Bürger zu gut gebildeten und kritischen Mitgliedern unserer Gesellschaft macht, den Grundstein für eine erfolgreiche berufliche Entwicklung legt und sie zur Mitwirkung in Staat und Ehrenamt befähigt.",
+      "quote_location": {
+        "page": 17,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dem-2",
+      "quote": "Die desolate Situation im deutschen Rentensystem",
+      "quote_location": {
+        "page": 19,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "teilweise verbilligte oder kostenlose Tickets im öffentlichen Nahverkehr.",
+      "quote_location": {
+        "page": 24,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "besser ausgebutes und abgestimmtes öffentliches Nah- und Fernverkehrsnetz erhalten",
+      "quote_location": {
+        "page": 45,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Keine direkte Erwähnung von schnellem Internet oder flächendeckender staatlicher Förderung im Programm.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-afd",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Keine Erwähnung von Behördenleistungen oder digitaler Verfügbarkeit von Verwaltungsdiensten.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "stärken die Bürokratiebremse („One in, two out“)",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Eine Vermögensteuer lehnen wir ab.",
+      "quote_location": {
+        "page": 31,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "An der bestehenden gesetzlichen Regelung zum Renteneintrittsalter halten wir fest.",
+      "quote_location": {
+        "page": 32,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Wir holen den Nationalen Normenkontrollrat (NKR) sowie die Zuständigkeit für Bürokratieabbau und bessere Rechtsetzung zurück in das Bundeskanzleramt.",
+      "quote_location": {
+        "page": 18,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Gerade auch mit Blick auf die Klimaziele und die Versorgungssicherheit hat diese eine bedeutende Rolle.",
+      "quote_location": {
+        "page": 22,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "Ja zu bezahlbarer, sicherer und sauberer Energie",
+      "quote_location": {
+        "page": 2,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "Wir bündeln die Verantwortung für Infrastruktur, Datenpolitik, KI, Plattformen und digitale Dienste, Verwaltungsdigitalisierung und modernes Regierungshandeln.",
+      "quote_location": {
+        "page": 30,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "Deutschland verfügt über eine weltweit beachtete Grundlagenforschung. Diese Stärke bauen wir aus und räumen der erkenntnisgetriebenen Grundlagenforschung mehr Gewicht im Haushalt ein.",
+      "quote_location": {
+        "page": 28,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Wir stehen ohne Wenn und Aber zur transatlantischen Verteidigungsallianz. Sie garantiert der Bundesrepublik seit mehr als 75 Jahren Frieden, Freiheit und Sicherheit.",
+      "quote_location": {
+        "page": 49,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "Neu ankommende Flüchtlinge aus der Ukraine sollen kein sogenanntes „Bürgergeld“ mehr erhalten, sondern Leistungen nach dem Asylbewerberleistungsgesetz.",
+      "quote_location": {
+        "page": 43,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "Das Wahlprogramm behandelt Themen wie Arbeitsrecht, flexible Arbeitszeiten und Fachkräfteoffensive, erwähnt jedoch keine Polizei oder Personalbedarf in der Polizei.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "wie zum Beispiel Quantencomputing, KI, Fusionsenergie, Biotechnologie, Batteriezellen und Mikroelektronik.",
+      "quote_location": {
+        "page": 24,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "Wir wollen die illegale Migration stoppen und die humanitären Aufnahmen auf ein Maß beschränken, das die Möglichkeiten Deutschlands nicht länger überfordert.",
+      "quote_location": {
+        "page": 40,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "Wir setzen einen faktischen Aufnahmestopp sofort durch. Dazu weisen wir diejenigen an den deutschen Grenzen zurück, die aus einem anderen Mitgliedstaat der EU oder dem Schengen-Raum nach Deutschland einreisen und bei uns einen Asylantrag stellen wollen.",
+      "quote_location": {
+        "page": 43,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "Keine Erwähnung des Wahlalters oder verwandter Themen im bereitgestellten Programm.",
+      "quote_location": {
+        "page": 2,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dem-2",
+      "quote": "Das sogenannte „Bürgergeld“ in der jetzigen Form schaffen wir ab und ersetzen es durch eine Neue Grundsicherung.",
+      "quote_location": {
+        "page": 29,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "Wichtig ist ein bedarfsgerechter und zukunftsfester öffentlicher Personennahverkehr. Dazu gehören auch eine zuverlässige und robuste Infrastruktur sowie ein attraktives Angebot in Stadt und Land. Bei der Finanzierung des ÖPNV",
+      "quote_location": {
+        "page": 74,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "Wir unterstützen Spitzenleistungen, Profilbildungen und Kooperationen im Wissenschaftssystem. Exzellenz entsteht durch Wettbewerb. So entwickeln wir die Exzellenzstrategie weiter.",
+      "quote_location": {
+        "page": 68,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Es muss eine Selbstverständlichkeit sein, online an Sozialwahlen teilzunehmen.",
+      "quote_location": {
+        "page": 36,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-cdu",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Mit dem Einsatz von KI bauen wir in Deutschland eine effiziente, vollständig digitalisierte Verwaltung für Bürger und Unternehmen auf, die rund um die Uhr an sieben Tagen die Woche niederschwellig und nutzerfreundlich Serviceleistungen erbringen kann.",
+      "quote_location": {
+        "page": 30,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "Für einen Deutschlandfonds und eine Reform der Schuldenbremse wollen wir",
+      "quote_location": {
+        "page": 20,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Ein faires Steuersystem ist dafür die Voraussetzung. Wir setzen uns mit Nachdruck dafür ein,",
+      "quote_location": {
+        "page": 7,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "Für ein stabiles und sicheres Klima Die Anstrengungen lohnen sich: Die klimaschädlichen Emissionen sinken.",
+      "quote_location": {
+        "page": 21,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Steuergutschriften ein. Das ist ein Baustein, um die Arbeitsanreize im Bürgergeldsystem zu erhöhen.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Für die klimaneutrale Modernisierung der Industrie",
+      "quote_location": {
+        "page": 13,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "Förderung von bis zu 70 Prozent für den Einbau von fossilfreien Heizungen",
+      "quote_location": {
+        "page": 23,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "Eine berufliche Ausbildung oder ein Studium ebnet gleichwertig einen starken Weg in die berufliche Zukunft. Wir erhöhen die Freibeträge bei BAföG... Das BAföG soll existenzsichernd sein, auch bei steigenden Lebenshaltungskosten.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Der Angriffskrieg von Russland auf die Ukraine und der Systemkonflikt zwischen liberalen Demokratien und autoritären Staaten im Umfeld Chinas erfordern eine Neuorientierung von Wirtschaftssicherheit und Handel, Lieferketten und Absatzmärkten.",
+      "quote_location": {
+        "page": 10,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "mit diplomatischer, finanzieller, humanitärer und militärischer Unterstützung.",
+      "quote_location": {
+        "page": 60,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "gesetzliche Grundlage für die Arbeit der Unabhängigen Beauftragten für Fragen des sexuellen Kindesmissbrauchs, Strafverfolgung durch die Polizei im Netz und offline, bessere Meldestellen",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "Deshalb müssen wir unsere öffentlichen Räume stärken.",
+      "quote_location": {
+        "page": 8,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "Wärmenetze sind ein wichtiger Baustein auf dem Weg zu klimafreundlicher und bezahlbarer Wärme für alle.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "Frauen, deren Aufenthaltsstatus von ihrem gewalttätigen Partner abhängt, sollen einen eigenständigen Aufenthaltstitel erhalten.",
+      "quote_location": {
+        "page": 51,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "das Wahlalter auch auf Bundesebene auf 16 Jahre zu senken",
+      "quote_location": {
+        "page": 39,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dem-2",
+      "quote": "Parteispenden und -sponsoring wollen wir durch einen jährlichen Höchstbetrag deckeln.",
+      "quote_location": {
+        "page": 48,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "Unser Ziel ist, gemeinsam mit den Ländern einen Ticketpreis von 49 Euro sicherzustellen.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "Während unser Schienennetz deutschlandweit einen deutlichen Ausbau braucht, ist das Straßennetz bereits flächendeckend gut ausgebaut und benötigt daher Sanierungen statt Neubau.",
+      "quote_location": {
+        "page": 24,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Um die notwendigen Investitionen in Infrastruktur, in die Dekarbonisierung unseres Landes und in eine starke, zukunftsfähige Wirtschaft zu finanzieren, wollen wir die Schuldenbremse reformieren.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-gruene",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Wir werden die Digitalisierung der Wirtschaft und die Entwicklung von digitalen Geschäftsmodellen erleichtern. Dazu wollen wir die Anwendung von Künstlicher Intelligenz (KI), die Etablierung robuster Cybersicherheitsstandards sowie die Stärkung digitaler Kompetenzen in Unternehmen gezielt fördern un",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "die Reform der Schuldenbremse für die Länder, Möglichkeiten.",
+      "quote_location": {
+        "page": 33,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Wir wollen, dass auch (Hoch-)Vermögende einen gerechten Beitrag zur Finanzierung der Investitionen in unsere Zukunft leisten.",
+      "quote_location": {
+        "page": 19,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "as Bürgergeld ist eine steuerfinanzierte Grundsicherung und kein bedingungsloses Grundeinkommen. Deswegen wird zu Recht Mitwirkung eingefordert.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Den Mindestlohn haben wir auf zunächst 12 Euro erhöht – das bedeutet mehr Einkommen und mehr Sicherheit für Millionen von Menschen!",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Unsere Unternehmen müssen sicher sein, dass sie ihren Weg zur Klimaneutralität weitergehen können.",
+      "quote_location": {
+        "page": 11,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "12. Wir kämpfen für Klimaschutz, den sich jeder leisten kann.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "Dafür werden wir die Hochschulen weiter ausreichend staatlich fördern, um die Qualität von Studium und Lehre zu verbessern.",
+      "quote_location": {
+        "page": 10,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "Sorgen wir jetzt für stabile Renten, für gute Gesundheit und Pflege, für intakte Schulen und Kitas? Oder setzen wir ausgerechnet da den Rotstift an?",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Auf europäischer Ebene gilt ab 2026 das Gemeinsame Europäische Asylsystem (GEAS). Wir wollen, dass in ganz Europa humanitäre Standards für Geflüchtete bestehen und Migration solidarisch gesteuert wird.",
+      "quote_location": {
+        "page": 55,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "Die SPD bekennt sich klar zur diplomatischen, militärischen, finanziellen und humanitären Unterstützung der Ukrainerinnen und Ukrainer in",
+      "quote_location": {
+        "page": 58,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "Wir wollen Sicherheitsbehörden und Justiz stärken. Besonders in herausfordernden Zeiten ist die Sichtbarkeit der Polizei von erheblicher Bedeutung. Auch dafür wollen wir den Personal",
+      "quote_location": {
+        "page": 42,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "Durch weitere Digitalisierung und Vereinfachung.",
+      "quote_location": {
+        "page": 16,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "Wir wollen die Integration verbessern und Fachkräfteeinwanderung vereinfachen.",
+      "quote_location": {
+        "page": 54,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "Wir wollen soziale Teilhabe für Kinder und Familien sichern.",
+      "quote_location": {
+        "page": 28,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "Ab 16 Jahren sollen junge Menschen mitentscheiden können, deswegen senken wir das aktive Wahlalter.",
+      "quote_location": {
+        "page": 27,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "Der günstige Preis und die einfache Nutzung sind das Erfolgsrezept des Tickets – wir wollen, dass der Preis dauerhaft auf aktuellem Niveau bleibt.",
+      "quote_location": {
+        "page": 35,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "Wegen seiner geografischen Lage in Europa soll Deutschland als zentrale Drehscheibe für die Logistik weiter ausgebaut.",
+      "quote_location": {
+        "page": 58,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Die Grundlage dafür bildet eine flächendeckende Versorgung des ganzen Landes mit Glasfaser und Mobilfunk.",
+      "quote_location": {
+        "page": 9,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-spd",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Darüber hinaus wollen wir die Chancen der Digitalisierung nutzen, um die Pflege durch digitale Produkte und Beratungsangebote noch besser zu unterstützen.",
+      "quote_location": {
+        "page": 31,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "Die Schuldenbremse ha",
+      "quote_location": {
+        "page": 15,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Die Vermögenssteuer wollen wir für Vermögen ab 25 Millionen Euro mit einem Steuersatz von 1 Prozent reaktivieren, der ab 100 Millionen Euro Vermögen auf 2 Prozent und ab 1 Mrd. Euro auf 3 Prozent steigt.",
+      "quote_location": {
+        "page": 17,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "Wer 45 Jahre gearbeitet und in die Rentenkasse eingezahlt hat, muss abschlagsfrei mit 63 Jahren in Rente gehen können.",
+      "quote_location": {
+        "page": 22,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Ressourcen in Waffen und Kriegsgerät fließen, statt in die Bildung unserer Kinder, die Erforschung umweltschonender Technologien oder unsere Gesundheits- und Pflegeeinrichtungen.",
+      "quote_location": {
+        "page": 5,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Wir brauchen eine durchdachte Klima-Umweltpolitik, die den Klimawandel ernst nimmt, aber sich nicht in planlosem Aktivismus verrennt",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "durch eine vernünftige Energiepolitik Energiepreise senken",
+      "quote_location": {
+        "page": 2,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "Deutschland gibt ca. 3,1 % des BIP für Innovationen aus. Bei anderen Industriestaaten sind es mehr als 5 %. Wir wollen die Ausgaben für Forschung und Entwicklung bis 2030 auf mindestens 4 % der Wirtschaftsleistung steigern.",
+      "quote_location": {
+        "page": 12,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "über eine Reform der Schuldenbremse unsere marode Infrastruktur modernisieren",
+      "quote_location": {
+        "page": 2,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Die aktuelle Hochrüstung ebenso konsequent ablehnt wie Waffenlieferungen in Kriegsgebiete.",
+      "quote_location": {
+        "page": 2,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "fordern ein Verbot von Rüstungsexporten in Kriegsgebiete.",
+      "quote_location": {
+        "page": 5,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "Für eine gut ausgestattete Polizei braucht die Polizei mehr Personal und eine bessere Ausstattung.",
+      "quote_location": {
+        "page": 34,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "Thema Videoüberwachung nicht im Wahlprogramm erwähnt.",
+      "quote_location": {
+        "page": 11,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "motoren sowie für die Förderung alternativer zu lenken, wenn er weltweit zur Anwendung Kraftstoffe. Im Bereich der E-Mobilität müssen",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "✔ Wir fordern die Abschaffung der kostspieligen Trennung der verschiedenen Versorgungssektoren wie z. B. der ambulanten, Pflege- und stationären Versorgung.",
+      "quote_location": {
+        "page": 28,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "Thema nicht im Wahlprogramm behandelt",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dem-2",
+      "quote": "Wir fordern einen sofortigen Stopp der Waffenlieferungen an Israel.",
+      "quote_location": {
+        "page": 8,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "Mobilität darf kein Luxus werden, sondern muss bezahlbar für alle sein!",
+      "quote_location": {
+        "page": 30,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "einen bezahlbaren und gut ausgebauten öffentlichen Nahverkehr: sicher, sauber und günstig.",
+      "quote_location": {
+        "page": 29,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Der Digital Services Act, eine EU-Verordnung, die seit Februar letzten Jahres vollständig anwendbar ist, enthält unter anderem Regelungen für Online-Plattformen, nach denen nicht nur strafbare, sondern auch bestimmte rechtliche Inhalte gelöscht werden können.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-bsw",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Statt weitere Milliarden für die Vertiefung unserer Abhängigkeit an US-Monopolisten zu überweisen, sollte die nächste Bundesregierung die Verwaltung dabei unterstützen, Open-Source-Lösungen einzusetzen, die langfristig viel Geld sparen und bei denen unsere Daten nicht ins Eigentum amerikanischer IT-",
+      "quote_location": {
+        "page": 42,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "Mit der Reform der Schuldenbremse machen wir den Weg frei für nachhaltige Investitionen – in Bildung, Infrastruktur und Klimaschutz.",
+      "quote_location": {
+        "page": 7,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Moderate Erhöhung des Spitzen- und Reichensteuersatzes: Für sehr hohe Einkommen wird der Spitzensteuersatz moderat angehoben.",
+      "quote_location": {
+        "page": 99,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "Volt bekennt sich gleichzeitig weiterhin zur nuklearen Abrüstung, unterstützt den Vertrag über die Nichtverbreitung von Kernwaffen und setzt sich für die weltweite Abrüstung von Kernwaffen und anderen Massenvernichtungswaffen ein.",
+      "quote_location": {
+        "page": 40,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Das Programm behandelt ausschließlich Verteidigungspolitik, europäische Armee und Rüstungspolitik ohne Bezug zu Bürgergeld oder Sozialleistungen.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Erneuerbare Energien, Wasserstoff und Wärmewende für die Klimaneutralität",
+      "quote_location": {
+        "page": 3,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "Keine Förderung von „H2-ready“-Heizungen: Förderung wird eingestellt, da der Betrieb mit grünem Wasserstoff langfristig nicht realistisch ist.",
+      "quote_location": {
+        "page": 68,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "nachhaltige Investitionen – in Bildung, Infrastruktur und Klimaschutz",
+      "quote_location": {
+        "page": 7,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "Bilinguale Ausbildungsprogramme: Ausbildungsprogramme werden in Englisch oder in einer in der jeweiligen Grenzregion gesprochenen Sprache angeboten, ähnlich wie viele Studiengänge an Hochschulen.",
+      "quote_location": {
+        "page": 51,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Schulterschluss in Europa: Deutschland verstärkt seine Bemühungen, in der Außen- und Verteidigungspolitik im Einklang mit den Interessen unserer europäischen Partner zu handeln. Der europäische Pfeiler innerhalb der NATO wird gestärkt.",
+      "quote_location": {
+        "page": 42,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "Koordinierte Militärhilfe: Deutschland entwickelt gemeinsam mit der Ukraine und seinen Partnern ein strategisches Konzept zur militärischen Unterstützung, liefert alle erforderlichen Waffen und ermöglicht",
+      "quote_location": {
+        "page": 45,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "technische Maßnahmen wie Bodycams und Personalrotation eingesetzt, um Transparenz und Unvoreingenomme",
+      "quote_location": {
+        "page": 142,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "sicherstellen, dass die Grundrechte aller auch im digitalen Raum gewahrt bleiben.",
+      "quote_location": {
+        "page": 8,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "Schutz gefährdeter Gruppen",
+      "quote_location": {
+        "page": 2,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "• Gesetze, die praktisch wirken: Praxis-Checks und Reallabore, in denen Gesetze zu- nächst in den Kommunen erprobt werden, sowie regelmäßige und konsequente Wirk- samkeitsprüfungen der verabschiedeten Gesetze sorgen für eine effektive und praxis- nahe Gesetzgebung.",
+      "quote_location": {
+        "page": 17,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "Wählen ab 16: Das aktive Wahlrecht wird auf 16 Jahre herabgesetzt und gilt für alle Wahlen in Deutschland.",
+      "quote_location": {
+        "page": 17,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "Klimaschutz und wirtschaftlichen Fortschritt. Finnland beweist, wie moderne Bildung Kindern echte Chancen eröffnet.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "Ausbau des Schienennetzes: Der Deutschlandtakt sowie der Ausbau und die Modernisierung des Schienennetzes werden vorangetrieben.",
+      "quote_location": {
+        "page": 70,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Beschleunigter Ausbau von Glasfasernetzen: Bürokratische Hürden werden abgebaut... Subventionen für ländliche Regionen: Digitale Fairness wird durch gezielte Förderung gewährleistet.",
+      "quote_location": {
+        "page": 72,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-volt",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Durch Digitalisierung, innovative Strukturen und attraktive Arbeitsbedingungen wird die Verwaltung flexibler, serviceorientierter und robuster.",
+      "quote_location": {
+        "page": 17,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "Schuldenbremse ..............................................................................................................15",
+      "quote_location": {
+        "page": 15,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "Während Großverdiener:innen sich kaum Gedanken über Steuern machen müssen, stellen die dauerhaft hohen Steuersätze von 19 % auf viele Konsumgüter eine erhebliche Belastung für Menschen mit geringerem Einkommen dar.",
+      "quote_location": {
+        "page": 9,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "Arbeitszeitmodelle: Wir setzen uns für moderne und flexible Modelle wie die 4-Tage-Woche oder die 35-Stunden-Woche bei vollem Lohnausgleich ein.",
+      "quote_location": {
+        "page": 10,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Um die künstliche Inflation und mangelnde Wirtschaftspolitik der letzten Jahre auszugleichen, fordern wir eine einmalige Inflationsausgleichszahlung, die neben den Forderungen nach höheren Löhnen, gedeckelten Mieten und Steueranpassungen die Schäden der Einzelpersonen der letzten Jahre ausgleichen s",
+      "quote_location": {
+        "page": 9,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Klimaneutralität und CO₂-Budget",
+      "quote_location": {
+        "page": 29,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "Der Ausstieg aus Gebäudewärme und Stromproduktion durch Öl und Gas bis 2035 ist für uns zu spät. Wir wollen die Wärmewende und Transformation bereits früher auf den Weg bringen.",
+      "quote_location": {
+        "page": 32,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "Die Berufsausbildung soll zudem von sämtlichen Gebühren befreit werden.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "in Schulen, Kitas, Kindergärten sowie Kinderhorten soll rein pflanzliche, gesunde und ausgewogene Kost angeboten werden.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Die kontinuierliche Aufstockung von Militärausgaben und die Schaffung von Sondervermögen fördern eine Militarisierung der Außenpolitik und stehen unseren friedenspolitischen Grundsätzen entgegen.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "Waffenlieferungen in die gesamte Region lehnen wir ab, da sie zur Eskalation beitragen und zu zivilen Opfern führen.",
+      "quote_location": {
+        "page": 18,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "Das Wahlprogramm behandelt keine Themen im Zusammenhang mit Polizei oder Personalbedarf der Polizei.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "Wohnen und ein stabiles Dach über dem eigenen Kopf sind Privilegien, die nicht jeder Mensch hat.",
+      "quote_location": {
+        "page": 10,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "Unterstützung humanitärer Hilfsprojekte und den Schutz der betroffenen Flüchtlinge ein. Wir fordern eine langfristige F",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "Wir setzen uns für ein bundesweites Wahlrecht ab 16 Jahren ein.",
+      "quote_location": {
+        "page": 19,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dem-2",
+      "quote": "Parteispenden .............................................",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "langfristig wollen wir auf einen dauerhaft kostengünstigen Nahverkehr setzen.",
+      "quote_location": {
+        "page": 22,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "Sozialer Wohnungsbau Weiterhin muss verhindert werden, dass der Niedriglohnsek- tor gegen Arbeitslose aufgehetzt wird.",
+      "quote_location": {
+        "page": 11,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Staatliche Subventionen für die Fleisch- und Milchindustrie müssen abgeschafft und stattdessen in die Förderung pflanzlicher Alternativen und innovativer Technologien umgeleitet werden.",
+      "quote_location": {
+        "page": 38,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-tierschutzpartei",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Einführung eines zentralen, digitalen Kontrollsystems ist notwendig, um Verstöße effektiv zu dokumentieren und die Nachverfolgbarkeit zu gewährleisten.",
+      "quote_location": {
+        "page": 36,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-wirt-1",
+      "quote": "Schuldenbremse einhalten ist Generationengerechtigkeit Freiheit für künftige Gene",
+      "quote_location": {
+        "page": 35,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-wirt-2",
+      "quote": "immer größeren Sozialstaat, immer mehr Subventionen, immer mehr Verschuldung und immer höhere Staatsausgaben in Kauf z",
+      "quote_location": {
+        "page": 6,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-soz-1",
+      "quote": "Die Wirtschaftsordnung der Sozialen Marktwirtschaft hat dem westlichen Teil unseres Landes nach dem Zweiten Weltkrieg einen beispiellosen wirtschaftlichen Wiederaufstieg ermöglicht.",
+      "quote_location": {
+        "page": 46,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-soz-2",
+      "quote": "Den Grundfreibetrag wollen wir im Zuge der Bürgergeldreform schrittweise um mindestens 1.000 Euro anheben. Damit stärken wir das Lohnabstandsgebot, also dass es Menschen mit Erwerbsarbeit deutlich besser gehen muss als mit Transfereinkommen",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-kli-1",
+      "quote": "Da nationale Sonderziele im Rahmen des europäischen Emissionshandels keinerlei zusätzlichen Nutzen für den Klimaschutz haben können, wollen wir das Ziel der Klimaneutralität bis 2045 im deutschen Klimaschutzgesetz durch das europäische Ziel der Klimaneutralität bis 2050 ersetzen.",
+      "quote_location": {
+        "page": 38,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-kli-2",
+      "quote": "Denn nicht die Antriebstechnik, sondern die fossilen Kraftstoffe sind das Problem. So können wir auch in Zukunft die Bestandsflotte klimaneutral",
+      "quote_location": {
+        "page": 42,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-bil-1",
+      "quote": "d. Exzellente Rahmenbedingungen für Studium, Forschung und Innovationen",
+      "quote_location": {
+        "page": 9,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-bil-2",
+      "quote": "Wir wollen eine nationale Finanzbildungsstrategie, um die finanzielle Bildung in der Breite der Gesellschaft zu verbessern, beispielsweise durch ein bundesweites Pflichtfach an allgemeinbildenden Schulen.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-eur-1",
+      "quote": "Unser langfristiges Ziel ist der Aufbau einer Europäischen Armee, auch als ein integraler Bestandteil der Stärkung des europäischen Pfeilers innerhalb der NATO.",
+      "quote_location": {
+        "page": 48,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-eur-2",
+      "quote": "Dazu zählt für uns auch die Verteidigung gegen Abschussbasen und Nachschublinien auf russischer Seite mit weitreichenden Waffen. Daher fordern wir die unverzügliche Lieferung des Marschflugkörper Taurus.",
+      "quote_location": {
+        "page": 47,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-inn-1",
+      "quote": "Wir Freie Demokraten fordern daher die Sanierung der Schulgebäude in Deutschland. Durch einen Digitalpakt 2.0 von Bund und Ländern wollen wir die technische Modernisierung der Schulen vorantreiben.",
+      "quote_location": {
+        "page": 8,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-inn-2",
+      "quote": "Videoüberwachung kann an einzelnen Kriminalitätsschwerpunkten wie Bahnhöfen Sinn ergeben, ersetzt jedoch niemals die Präsenz von Polizistinnen.",
+      "quote_location": {
+        "page": 22,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-mig-1",
+      "quote": "wollen unserer humanitären Verantwortung gerecht werden, sie aber auch an unseren realen Möglichkeiten ausrichten.",
+      "quote_location": {
+        "page": 27,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-mig-2",
+      "quote": "bei der Inneren Sicherheit, dem Bevölkerungs- und Katastrophenschutz, der Migration und der Digitalisierung Priorität.",
+      "quote_location": {
+        "page": 35,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dem-1",
+      "quote": "dass sich immer mehr Menschen ins Privatleben zurückziehen, statt sich als selbstbewusste Staatsbürgerinnen und Staatsbürger mit ihrer eigenen Meinung an den Debatten um die Zukunft unseres Landes zu beteiligen.",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dem-2",
+      "quote": "Dass innere und äußere Sicherheit herausgefordert sind wie seit langem nicht mehr. Dass die irreguläre Migration immer noch nicht ausreichend unter Kontrolle gebracht ist. Dass wichtige Wertentscheidungen wie Demokratie, Grundrechte und Soziale Marktwirtschaft nicht mehr selbstverständlicher Konsens",
+      "quote_location": {
+        "page": 4,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-ver-1",
+      "quote": "ÖPNV durch Markt und Innovation stärken. Ein funktionierender Öffentlicher Personennahverkehr ist eine notwendige Ergänzung zum Individualverkehr.",
+      "quote_location": {
+        "page": 43,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-ver-2",
+      "quote": "und Katastrophenschutz muss als Teil der Gesamtverteidigung verstanden werden. Zu diesem Zweck muss das Bundesamt für Bevölkerungsschutz und Katastrophenhilfe als Zentralstelle die Koordination übernehmen können.",
+      "quote_location": {
+        "page": 25,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dig-1",
+      "quote": "Wir fordern den Aufbau einer zukunftsfähigen Dateninfrastruktur und die Reform der zersplitterten Datenschutzaufsicht, um die Innovationskraft und Wettbewerbsfähigkeit der deutschen Wirtschaft zu stärken.",
+      "quote_location": {
+        "page": 22,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    },
+    {
+      "party_id": "p-fdp",
+      "thesis_id": "the-btw2025-dig-2",
+      "quote": "Keine Erwähnung von Behördenleistungen oder digitaler Verfügbarkeit von Verwaltungsleistungen im Programm.",
+      "quote_location": {
+        "page": null,
+        "char_offset": 0
+      },
+      "verified_by": "auto"
+    }
+  ]
+}
