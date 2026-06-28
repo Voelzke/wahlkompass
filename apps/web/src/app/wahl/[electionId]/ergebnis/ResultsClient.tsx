@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Election, Party, Position, Thesis } from "@/lib/types";
 import { computeResults } from "@/lib/matching";
 import { loadAnswersForElection } from "@/store/matching";
 import PartyRanking from "@/components/PartyRanking";
+import ThesisDetailTable from "@/components/ThesisDetailTable";
 
 interface Props {
   electionId: string;
@@ -22,6 +23,8 @@ export default function ResultsClient({
   theses,
   positions,
 }: Props) {
+  const [view, setView] = useState<"ranking" | "detail">("ranking");
+
   const result = useMemo(() => {
     const answers = loadAnswersForElection(electionId);
     return computeResults(parties, theses, positions, answers);
@@ -47,23 +50,58 @@ export default function ResultsClient({
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className="mx-auto max-w-4xl px-4 py-10">
       <h1 className="mb-1 text-3xl font-bold text-gray-900">Dein Ergebnis</h1>
       <p className="mb-6 text-gray-600">
         Du hast {result.answeredCount} Thesen beantwortet.
       </p>
 
-      <PartyRanking
-        ranked={result.ranked}
-        isPreview={election.is_preview || election.phase === "erfassung"}
-      />
+      {/* View toggle */}
+      <div className="mb-6 flex gap-2 rounded-lg bg-gray-100 p-1">
+        <button
+          type="button"
+          onClick={() => setView("ranking")}
+          className={`flex-1 rounded-md px-4 py-2 text-sm font-medium transition ${
+            view === "ranking"
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-600 hover:text-gray-900"
+          }`}
+        >
+          📊 Rangliste
+        </button>
+        <button
+          type="button"
+          onClick={() => setView("detail")}
+          className={`flex-1 rounded-md px-4 py-2 text-sm font-medium transition ${
+            view === "detail"
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-600 hover:text-gray-900"
+          }`}
+        >
+          📋 Detail-Analyse
+        </button>
+      </div>
+
+      {view === "ranking" ? (
+        <PartyRanking
+          ranked={result.ranked}
+          isPreview={election.is_preview || election.phase === "erfassung"}
+        />
+      ) : (
+        <ThesisDetailTable
+          theses={theses}
+          parties={parties}
+          positions={positions}
+          answers={loadAnswersForElection(electionId)}
+        />
+      )}
 
       <div className="mt-8 rounded-lg bg-blue-50 px-4 py-3 text-sm text-blue-800 ring-1 ring-blue-200">
         <p className="font-medium">KI-Transparenzhinweis</p>
         <p className="mt-1">
-          Parteipositionen werden teilautomatisiert (KI-gestützt) aus
-          Wahlprogrammen extrahiert und vor Veröffentlichung geprüft.
-          Vergleichen Sie wichtige Aussagen mit den Originalquellen.
+          Parteipositionen werden teilautomatisiert (KI-gestützt mit Ollama
+          qwen3-8k) aus Wahlprogrammen extrahiert und vor Veröffentlichung
+          geprüft. Vergleichen Sie wichtige Aussagen mit den Originalquellen.
         </p>
       </div>
 
